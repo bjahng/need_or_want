@@ -16,6 +16,26 @@ header .needtitle, header .or, header .wanttitle {
 	margin-bottom: 50px;
 }
 
+.input {
+	margin: auto;
+}
+
+.input .textinput {
+	line-height: 
+}
+
+.input .textinput, .input .buttons {
+	display: inline-block;
+}
+
+.input button {
+	display: block;
+}
+
+.input .needbutton {
+	margin-bottom: 6px;
+}
+
 .list {
 	text-align: center;
 	margin: 40px auto;
@@ -23,18 +43,26 @@ header .needtitle, header .or, header .wanttitle {
 
 .need, .want {
 	display: inline-block;
-	text-align: left;
-	width: 400px;
+	text-align: center;
+	width: 450px;
+	background-color: white;
 }
 
 .need {
-	margin-right: 40px;
+	padding: 20px 30px 500px 20px;
+	background-image: url("../images/milk.jpg");
+	background-repeat: no-repeat;
+}
+
+.want {
+	padding: 20px 20px 500px 30px;
+	background-image: url("../images/sportscar.jpg");
+	background-repeat: no-repeat;
 }
 
 .list ul {
-	border: 1px solid black;
-	background-color: white;
-	padding: 15px;
+	padding: 0px;
+	margin: 0px auto;
 	list-style: square inside;
 }
 
@@ -42,7 +70,7 @@ header .needtitle, header .or, header .wanttitle {
 	border: 1px solid black;
 	background-color: pink;
 	padding: 5px;
-	margin: 5px;
+	text-align: left;
 }
 
 .done {
