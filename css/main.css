@@ -1,0 +1,50 @@
+body {
+	/*background-image: url("../images/needorwantbg.jpg");*/
+	background-color: skyblue;
+}
+
+header, .input {
+	text-align: center;
+}
+
+header .needtitle, header .or, header .wanttitle {
+	display: inline-block;
+	margin: 50px 30px;
+}
+
+.credit {
+	margin-bottom: 50px;
+}
+
+.list {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.need, .want {
+	display: inline-block;
+	text-align: left;
+	width: 400px;
+}
+
+.need {
+	margin-right: 40px;
+}
+
+.list ul {
+	border: 1px solid black;
+	background-color: white;
+	padding: 15px;
+	list-style: square inside;
+}
+
+.list ul li {
+	border: 1px solid black;
+	background-color: pink;
+	padding: 5px;
+	margin: 5px;
+}
+
+.done {
+	text-decoration: line-through;
+}
